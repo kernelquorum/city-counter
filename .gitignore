@@ -1,0 +1,6 @@
+/backend/cmd/server/main
+
+/frontend/dist/
+/frontend/node_modules/
+
+.env

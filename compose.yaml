@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ./backend
+    environment:
+      GEONAMES_URL: "${GEONAMES_URL:-http://api.geonames.org/searchJSON?featureClass=P&maxRows=50&orderby=population&username=hsample}"
+      CACHE_ENABLED: "${CACHE_ENABLED:-true}"
+      CACHE_TTL: "${CACHE_TTL:-1m}"
+      PORT: "${BACKEND_PORT:-8080}"
+    expose:
+      - "${BACKEND_PORT:-8080}"
+
+  frontend:
+    build: ./frontend
+    environment:
+      BACKEND_PORT: "${BACKEND_PORT:-8080}"
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-8080}:80"
+    depends_on:
+      - backend

@@ -1,0 +1,44 @@
+{
+  "geonames": [
+    {
+      "adminCode1": "23",
+      "lng": "121.45806",
+      "geonameId": 1796236,
+      "toponymName": "Shanghai",
+      "countryId": "1814991",
+      "fcl": "P",
+      "population": 24874500,
+      "countryCode": "CN",
+      "name": "Shanghai",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "SH"
+      },
+      "countryName": "China",
+      "fcodeName": "seat of a first-order administrative division",
+      "adminName1": "Shanghai",
+      "lat": "31.22222",
+      "fcode": "PPLA"
+    },
+    {
+      "adminCode1": "22",
+      "lng": "116.39723",
+      "geonameId": 1816670,
+      "toponymName": "Beijing",
+      "countryId": "1814991",
+      "fcl": "P",
+      "population": 18960744,
+      "countryCode": "CN",
+      "name": "Beijing",
+      "fclName": "city, village,...",
+      "adminCodes1": {
+        "ISO3166_2": "BJ"
+      },
+      "countryName": "China",
+      "fcodeName": "capital of a political entity",
+      "adminName1": "Beijing",
+      "lat": "39.9075",
+      "fcode": "PPLC"
+    }
+  ]
+}
